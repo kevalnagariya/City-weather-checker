@@ -49,3 +49,14 @@ and replace the '8d9de1fcec7b2bac2577528ebdfbc32a' string with your own API key.
 Open the folder where you saved the files.
 Double-click the index.html file to open it in your web browser.
 You should now be able to use the application to check the weather for any city.
+
+## 🎯 Future Improvements
+
+- Add support for 5-day weather forecasts.
+- Enable geolocation to auto-detect user’s city.
+- Improve mobile responsiveness for smaller screens.
+
+## 🧑‍💻 Author
+
+- Created with ❤️ by **Keval Nagariya** 
+- ❤️ **https://op-city-weather-chekcer.netlify.app/**
