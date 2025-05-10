@@ -15,40 +15,36 @@ Before running the project, make sure you have the following:
 ## Files Structure
 The project consists of the following files:
 - `index.html`: The HTML structure of the application.
-- `main.js`: JavaScript file that handles the weather fetching and display logic.
-- `styles.css`: CSS file that styles the webpage for a clean and modern look.
+- `assets/css/styles.css`: CSS file that styles the webpage for a clean and modern look.
+- `assets/js/main.js`: JavaScript file that handles the weather fetching and display logic.
 
 ## Steps to Run the Application
 
-### Step 1: Get an OpenWeatherMap API Key
-To use the weather data from OpenWeatherMap, you'll need an API key.
-1. Go to the [OpenWeatherMap website](https://openweathermap.org/api).
-2. Sign up for an account or log in if you already have one.
-3. Navigate to the "API Keys" section in your account settings.
-4. Copy your API key from there.
+1. **Get an OpenWeatherMap API Key**
+   - Go to the [OpenWeatherMap website](https://openweathermap.org/api).
+   - Sign up for an account or log in if you already have one.
+   - Navigate to the "API Keys" section in your account settings.
+   - Copy your API key from there.
 
-### Step 2: Set Up the Project
-1. Create a folder on your local system to store the project files.
-2. Inside the folder, create the following files:
-   - `index.html`
-   - `styles.css`
-   - `main.js`
-3. Copy the code for each respective file:
-   - Paste the HTML code in `index.html`.
-   - Paste the CSS code in `styles.css`.
-   - Paste the JavaScript code in `main.js`.
+2. **Set Up the Project**
+   - Create a folder on your local system to store the project files.
+   - Inside the folder, create the following subfolders:
+     - `assets/css/`
+     - `assets/images/`
+     - `assets/js/`
+   - Copy the respective code into the files as described in the project.
 
-### Step 3: Add the API Key to `main.js`
-Replace the `apiKey` variable in `main.js` with your own OpenWeatherMap API key. Find this line:
-```javascript
-const apiKey = '8d9de1fcec7b2bac2577528ebdfbc32a';
-and replace the '8d9de1fcec7b2bac2577528ebdfbc32a' string with your own API key.
-```
+3. **Add the API Key to `main.js`**
+   Replace the `apiKey` variable in `assets/js/main.js` with your own OpenWeatherMap API key. Find this line:
 
-### Step 4: Run the Application
-Open the folder where you saved the files.
-Double-click the index.html file to open it in your web browser.
-You should now be able to use the application to check the weather for any city.
+   ```javascript
+   const apiKey = 'YOUR_API_KEY'; // Replace this with your actual OpenWeatherMap API key
+   ```
+
+4. **Run the Application**
+   - Open the folder where you saved the files.
+   - Double-click the index.html file to open it in your web browser.
+   - You should now be able to use the application to check the weather for any city.
 
 ## 🎯 Future Improvements
 
